@@ -1,0 +1,30 @@
+POST http://localhost:8080/books/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "first",
+  "publicationDate": "2023-03-04"
+}
+
+####
+GET http://localhost:8080/books/all
+Accept: application/json
+
+####
+
+####
+DELETE http://localhost:8080/books/delete/2
+Accept: application/json
+
+####
+PUT http://localhost:8080/books/update
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id":1,
+  "title": "Karaz",
+  "publicationDate": "2023-03-04"
+}
+####
